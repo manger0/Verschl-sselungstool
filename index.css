@@ -1,0 +1,26 @@
+textarea {
+    display: inline-flexbox;
+    width: 400px;
+    height: 400px;
+}
+table { 
+    border-collapse: collapse; 
+    margin-right: auto;
+    margin-left: auto;
+} 
+th { 
+    background-color:green; 
+    Color:white; 
+} 
+th, td { 
+    width:150px; 
+    text-align:center; 
+    border:1px solid black; 
+    padding:5px 
+  
+} 
+
+h1 {
+    
+    text-align: center;
+}

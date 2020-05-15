@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <link href="./index.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
+    <head>
+        <h1>Verschlüsselungstool</h1>
+    </head>
+    <br>
+    <br>
+
+    <body>
+        <table>
+            <tr>
+                <td>Entschlüsselt</td>
+                <td>Verschlüsselung Level</td>
+                <td>Verschlüsselt</td>
+            </tr>
+            <tr>
+                <td><textarea rows="20" cols="20" title="Entschlüsselter Text" id="encrypt"></textarea></td>
+                <td><select id="level">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                    <button onclick="shift()" id="button">Verschlüsseln/Entschlüsseln</button>
+                </td>
+                <td><textarea rows="20" cols="20"  title="Verschlüsselter Text" id="crypt"></textarea></td>
+            </tr>
+        </table>
+    </body>
+</html>
